@@ -1,0 +1,48 @@
+
+.main-menu {
+    width: 50vw;
+    margin: 0 auto;
+    margin-top: 10vh;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-flow: column;
+}
+
+.user-list {
+    list-style-type: none;
+    padding: 0;
+    border: 1px solid #eee;
+    border-radius: .25rem;
+}
+
+.user-list li {
+    border-radius: .25rem;
+    width: calc(100% - 1rem);
+    padding: .25rem .5rem;
+    margin: .15rem 0;
+    text-align: center;
+    cursor: pointer;
+    transition: all .3s ease-in;
+}
+
+.user-list li:first-child{
+    margin-top: 0;
+}
+
+.user-list li:last-child {
+    margin-bottom: 0;
+}
+
+
+.user-list li:hover {
+    background-color: #ccc;
+}
+
+.user-list li.selected {
+    background: darkseagreen !important;
+    cursor: inherit;
+    click-events: none;
+}
+
+

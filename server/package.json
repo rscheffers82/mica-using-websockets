@@ -1,0 +1,22 @@
+{
+  "name": "mica-board",
+  "version": "1.0.0",
+  "description": "Board came using socket.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mica",
+    "socket.io",
+    "react",
+    "node"
+  ],
+  "author": "Roy Scheffers",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3",
+    "save": "^2.3.2",
+    "socket.io": "^2.1.1"
+  }
+}
