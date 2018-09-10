@@ -58,3 +58,6 @@ export default App;
 
 
 // helpful article: https://medium.com/dailyjs/combining-react-with-socket-io-for-real-time-goodness-d26168429a34
+// Socket IO docs:  https://socket.io/get-started/chat/#Introduction
+// Room: https://socket.io/docs/server-api/#socket-to-room
+// Scaling with websockets: https://hackernoon.com/scaling-websockets-9a31497af051
